@@ -11,7 +11,6 @@
 - **Telegram:** @dzichonka
 
 ---
-
 ## About Me
 
 Looking for junior Front-end developer position that will allow to demonstrate and broaden my intellectual and technical capabilities in the field of IT.
@@ -87,7 +86,7 @@ function squareDigits(num) {
 
 ## Education
 
-- **RS School** - JavaScript/Front-end.
+- **RS School** - JavaScript/Front-end
   - _June 2023 - now (On-line)_
 - **Cosinus** - Computer science medical technician
   - _September 2022 - now (Warsaw/Poland)_
