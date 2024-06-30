@@ -1,5 +1,5 @@
 # Anna Vasilevich
-<img src="avatar.jpg" width="200">
+<img src="assets/avatar.jpg" width="200">
 
 ## Junior Front-end Developer
 ---
