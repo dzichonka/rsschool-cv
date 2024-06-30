@@ -1,8 +1,9 @@
 # Anna Vasilevich
----
+<img src="avatar.jpg" width="200">
+
 ## Junior Front-end Developer
 ---
-## Contacts
+### Contacts
 
 - **Phone:** +48 694 680 523
 - **e-mail:** anna.vasilevich.pl@gmail.com
@@ -11,7 +12,7 @@
 - **Telegram:** @dzichonka
 
 ---
-## About Me
+### About Me
 
 Looking for junior Front-end developer position that will allow to demonstrate and broaden my intellectual and technical capabilities in the field of IT.
 
@@ -21,7 +22,7 @@ Now I am improving my English, reading a lot about Front-end, expanding my techn
 
 Ready to work, learning and grow.
 
-### My strengths:
+#### My strengths:
 
 - Creative thinking
 - Flexibility
@@ -33,7 +34,7 @@ Ready to work, learning and grow.
 
 ---
 
-## Skills
+### Skills
 
 - HTML
 - CSS
@@ -46,7 +47,7 @@ Ready to work, learning and grow.
 
 ---
 
-## Code example:
+### Code example:
 
 Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
 
@@ -75,7 +76,7 @@ function squareDigits(num) {
 
 ---
 
-## Projects
+### Projects
 
 - [Coffee-House](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/ "Website")
 - [CV Anna Vasilevich](https://dzichonka.github.io/ "Landing-page")
@@ -83,7 +84,7 @@ function squareDigits(num) {
 
 ---
 
-## Education
+### Education
 
 - **RS School** - JavaScript/Front-end
   - _June 2024 - now (On-line)_
@@ -102,7 +103,7 @@ function squareDigits(num) {
 
 ---
 
-## Languages
+### Languages
 
 - **Russian** - native speaker
 - **Belarusian** - native speaker
