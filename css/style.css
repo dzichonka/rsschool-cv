@@ -101,7 +101,7 @@ header {
 }
 
 .contacts-item a {
-	color: #4d2323;
+	color: #101214;
 	text-decoration: none;
 }
 
@@ -113,6 +113,22 @@ header {
 .code-descr,
 .education-descr {
 	color: #73808D;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow: auto;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+code {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0;
 }
 
 footer {

@@ -123,21 +123,23 @@
           <br>
           Note: The function accepts an integer and returns an integer.
         </div>
-        <pre><code>
-      function squareDigits(num) {
-        let result = "";
-        if (Number.isInteger(num)) {
-          let index = num.toString();
-          for (let i = 0; i &LT; index.length; i++) {
-            let indexNum = +index.substr(i, 1);
-            result += `${indexNum * indexNum}`;
-        }
-        return +result;
-        } else {
-        result = "The function accepts an integer";
-        return result;
-        }
-      }</code></pre>
+        <div class="code-content">
+          <pre><code>
+function squareDigits(num) {
+  let result = "";
+    if (Number.isInteger(num)) {
+      let index = num.toString();
+      for (let i = 0; i &LT; index.length; i++) {
+        let indexNum = +index.substr(i, 1);
+        result += `${indexNum * indexNum}`;
+      }
+      return +result;
+      } else {
+      result = "The function accepts an integer";
+    return result;
+  }
+}</code></pre>
+        </div>
       </section>
       <section class="section education-skills" id="education">
         <hr>
@@ -171,7 +173,7 @@
               <div class="education-descr">November 2017 - May 2018 (Godno/Belarus)</div>
             </li>
             <li class="education-item">
-              <h3>Belarusian State Economic University** - Finance and credit</h3>
+              <h3>Belarusian State Economic University - Finance and credit</h3>
               <div class="education-descr">September 2003 - June 2008 (Minsk/Belarus)</div>
             </li>
           </ul>
