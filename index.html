@@ -129,7 +129,7 @@ function squareDigits(num) {
   let result = "";
     if (Number.isInteger(num)) {
       let index = num.toString();
-      for (let i = 0; i &LT; index.length; i++) {
+      for (let i = 0; i &lt; index.length; i++) {
         let indexNum = +index.substr(i, 1);
         result += `${indexNum * indexNum}`;
       }
@@ -226,7 +226,8 @@ function squareDigits(num) {
     <div class="container footer-nav">
       <div class="footer-item">© 2024 <a class="copywrite" href="https://github.com/dzichonka" target="_blank"
           rel="noopener noreferrer">dzichonka</a></div>
-      <a class="rsschool footer-item" href="https://rs.school/" target="_blank" rel="noopener noreferrer"></a>
+      <a class="rsschool footer-item" href="https://rs.school/" target="_blank" rel="noopener noreferrer"><img
+          class="link-img" src="./assets/rs_school_js.svg" alt="rsschool icon"></a>
 
     </div>
   </footer>
