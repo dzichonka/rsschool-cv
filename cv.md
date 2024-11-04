@@ -5,22 +5,18 @@
 ---
 ### Contacts
 
+
+- **GitHub:** [dzichonka](https://github.com/dzichonka)
 - **Phone:** +48 694 680 523
-- **e-mail:** anna.vasilevich.pl@gmail.com
-- **GitHub:** dzichonka
+- **LinkedIn:** [anna-vasilevich-frontend](https://www.linkedin.com/in/anna-vasilevich-frontend/)
 - **Discord:** Vasilisa (@dzichonka)
+- **e-mail:** anna.vasilevich.pl@gmail.com
 - **Telegram:** @dzichonka
 
 ---
 ### About Me
 
-Looking for junior Front-end developer position that will allow to demonstrate and broaden my intellectual and technical capabilities in the field of IT.
-
-I hope that my tech and soft skills acquied during my education and work experience will come in handy here as well.
-
-Now I am improving my English, reading a lot about Front-end, expanding my technical horizons.
-
-Ready to work, learning and grow.
+I am an ambitious personality with a passion for technology and programming. Although I hold a Bachelor's degree in Economics, I have always been deeply interested in physics and technology. In 2022, my family and I moved to Poland, where I began studying to become Medical electronics and informatics technician. During my training, I acquired skills in medical electronics and IT. Completing online courses in computer science and web development further enhanced my technical knowledge. I have strong analytical and problem-solving skills, along with the ability to learn quickly. I am proficient in MS Office and have a good level of English, which allows me to work with technical documentation. Additionally, I have experience in computer, network, and database management.
 
 #### My strengths:
 
@@ -76,26 +72,28 @@ function squareDigits(num) {
 
 ---
 
-### Projects
+### Experience
 
-- [Coffee-House](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/ "Website")
-- [CV Anna Vasilevich](https://dzichonka.github.io/ "Landing-page")
-- [Library](https://famous-tulumba-2dc634.netlify.app/ "Landing-page")
+- [Coffee-House](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/) A two-page presentation website for a coffee shop
+- [CV Anna Vasilevich](https://dzichonka.github.io/) A personal resume landing page
+- [Tic-tac-toe](https://dzichonka.github.io/tic-tac-toe/) A Tic Tac Toe game played against the computer
+
+_[Look at another my projects...](https://dzichonka.github.io/)_
 
 ---
 
 ### Education
 
-- **RS School** - JavaScript/Front-end
-  - _June 2024 - now (On-line)_
+- **RS School** - JavaScript/Front-end. Pre-school
+  - _June 2024 - October 2024_
 - **Cosinus** - Medical electronics and informatics technician
   - _September 2022 - June 2024 (Warsaw/Poland)_
 - **Udemy** - Full course on JavaScript
-  - _September 2022 - December 2023 (On-line)_
+  - _September 2022 - November 2024 (On-line)_
 - **Cisco Networking Academy** - IT Essentials
-  - _November 2022 - May 2023 (On-line)_
+  - _November 2022 - October 2023 (On-line)_
 - **Udemy** - WEB-developing
-  - _December 2021 - August 2022 (On-line)_
+  - _December 2021 - May 2023 (On-line)_
 - **State University of Grodno** - Course of photography
   - _November 2017 - May 2018 (Godno/Belarus)_
 - **Belarusian State Economic University** - Finance and credit
@@ -105,7 +103,7 @@ function squareDigits(num) {
 
 ### Languages
 
-- **Russian** - native speaker
 - **Belarusian** - native speaker
+- **Russian** - native speaker
 - **English** - B1
 - **Polish** - B1
