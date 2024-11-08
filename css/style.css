@@ -46,6 +46,12 @@ h3 {
 a {
 	color: #73808D;
 	text-decoration: none;
+	border-bottom: 1px solid #73808d00;
+	transition: all 0.7s linear;
+}
+
+a:hover {
+	border-bottom: 1px solid #73808D;
 }
 
 header {
@@ -96,11 +102,6 @@ header {
 	text-align: center;
 }
 
-.contacts-item a {
-	color: #101214;
-	text-decoration: none;
-}
-
 .education-skills {
 	padding-left: 0;
 }
@@ -112,6 +113,10 @@ header {
 .projects-list li {
 	display: flex;
 	justify-content: space-between;
+}
+
+.tech {
+	font-size: 14px;
 }
 
 .code-descr,

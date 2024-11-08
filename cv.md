@@ -75,7 +75,7 @@ function squareDigits(num) {
 ### Experience
 
 - [Coffee-House](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/) A two-page presentation website for a coffee shop
-- [CV Anna Vasilevich](https://dzichonka.github.io/) A personal resume landing page
+- [My CV](https://dzichonka.github.io/) A personal resume landing page
 - [Tic-tac-toe](https://dzichonka.github.io/tic-tac-toe/) A Tic Tac Toe game played against the computer
 
 _[Look at another my projects...](https://dzichonka.github.io/)_
