@@ -2,6 +2,7 @@
 
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	min-height: 50px;
+
 }
 
 hr {
@@ -40,16 +41,17 @@ h2 {
 
 h3 {
 	margin: 0;
-	margin-top: 15px;
 }
 
 a {
 	color: #73808D;
 	text-decoration: none;
+	border-bottom: 1px solid #73808d00;
+	transition: all 0.7s linear;
 }
 
-section {
-	margin-top: 20px;
+a:hover {
+	border-bottom: 1px solid #73808D;
 }
 
 header {
@@ -79,8 +81,7 @@ header {
 
 .section {
 	width: calc(50% - 20px);
-	padding: 10px;
-
+	padding: 20px;
 }
 
 .section-main {
@@ -90,6 +91,7 @@ header {
 }
 
 .main-photo {
+	object-fit: cover;
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
@@ -100,14 +102,21 @@ header {
 	text-align: center;
 }
 
-.contacts-item a {
-	color: #101214;
-	text-decoration: none;
+.education-skills {
+	padding-left: 0;
+}
+
+.projects-list {
+	padding-left: 0;
 }
 
 .projects-list li {
 	display: flex;
 	justify-content: space-between;
+}
+
+.tech {
+	font-size: 14px;
 }
 
 .code-descr,
@@ -116,12 +125,12 @@ header {
 }
 
 pre {
+
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	overflow: auto;
 	box-sizing: border-box;
 	width: 100%;
-
 }
 
 code {
@@ -133,9 +142,7 @@ code {
 
 footer {
 	background-color: #2AAEE7;
-	;
 	display: block;
-
 }
 
 .footer-nav {
@@ -159,8 +166,120 @@ footer {
 .rsschool {
 	width: 80px;
 	height: 20px;
-	background-image: url(../assets/rs_school_js.svg);
+	/* background-image: url(../assets/rs_school_js.svg); */
 	background-repeat: no-repeat;
 	background-size: contain;
 
+}
+
+@media (max-width: 1000px) {
+	.section {
+		width: 100%;
+	}
+}
+
+@media (max-width: 700px) {
+	.header-list {
+		justify-content: right;
+	}
+
+	.header-item:nth-child(1),
+	.header-item:nth-child(2),
+	.header-item:nth-child(3),
+	.header-item:nth-child(4),
+	.header-item:nth-child(7) {
+		display: none;
+	}
+
+	pre {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 16px;
+		line-height: 1.1;
+	}
+
+	.education-nav {
+		font-size: 12px;
+		line-height: 1.5;
+	}
+
+	.header-list {
+		justify-content: right;
+	}
+
+	.section-main {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-nav {
+		justify-content: center;
+	}
+
+	.footer-item:nth-child(1) {
+		display: none;
+	}
+}
+
+@media print {
+
+	header,
+	footer,
+	.section-code,
+	.section-projects,
+	.section-lang {
+		display: none;
+	}
+
+	body {
+		color: #000;
+		background: #fff;
+	}
+
+	* {
+		background: transparent !important;
+		box-shadow: none !important;
+	}
+
+	.section {
+		flex-basis: 50%;
+	}
+
+	.section-main {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.education-skills,
+	.section-about {
+		flex-basis: 100%;
+	}
+
+	img {
+		display: none;
+	}
+
+	body,
+	h1,
+	h2,
+	h3,
+	p,
+	li {
+		font-size: 12pt;
+		line-height: 1;
+	}
+
+	p,
+	h1,
+	h2,
+	h3,
+	li,
+	section,
+	hr {
+		page-break-inside: avoid;
+	}
 }
