@@ -1,19 +1,28 @@
-# Anna Vasilevich
-<img src="assets/avatar.jpg" width="200">
+<div style="display: flex; align-items: flex-end; gap: 20px;">
 
-## Junior Front-end Developer
+  <div>
+    <img src="assets/avatar.jpg" width="200">
+  </div>
+
+  <div>
+      <h1>Anna Vasilevich</h1>
+      <h2>Front-end Developer</h2>
+    <ul>
+      <li><b>GitHub:</b> <a href="https://github.com/dzichonka">dzichonka</a></li>
+      <li><b>Phone:</b> +48 694 680 523</li>
+      <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/anna-vasilevich-frontend/">anna-vasilevich-frontend</a></li>
+      <li><b>Discord:</b> Vasilisa (@dzichonka)</li>
+      <li><b>e-mail:</b> <a href="mailto:anna.vasilevich.pl@gmail.com">anna.vasilevich.pl@gmail.com</a></li>
+      <li><b>Telegram:</b> @dzichonka</li>
+    </ul>
+  </div>
+
+  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width=90>
+
+</div>
+
 ---
-### Contacts
 
-
-- **GitHub:** [dzichonka](https://github.com/dzichonka)
-- **Phone:** +48 694 680 523
-- **LinkedIn:** [anna-vasilevich-frontend](https://www.linkedin.com/in/anna-vasilevich-frontend/)
-- **Discord:** Vasilisa (@dzichonka)
-- **e-mail:** anna.vasilevich.pl@gmail.com
-- **Telegram:** @dzichonka
-
----
 ### About Me
 
 I am an ambitious personality with a passion for technology and programming. Although I hold a Bachelor's degree in Economics, I have always been deeply interested in physics and technology. In 2022, my family and I moved to Poland, where I began studying to become Medical electronics and informatics technician. During my training, I acquired skills in medical electronics and IT. Completing online courses in computer science and web development further enhanced my technical knowledge. I have strong analytical and problem-solving skills, along with the ability to learn quickly. I am proficient in MS Office and have a good level of English, which allows me to work with technical documentation. Additionally, I have experience in computer, network, and database management.
@@ -45,29 +54,18 @@ I am an ambitious personality with a passion for technology and programming. Alt
 
 ### Code example:
 
-Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
-
-For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1. (81-1-1-81)
-
-Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36, and 52 is 25. (49-36-25)
-
-Note: The function accepts an integer and returns an integer.
-
 ```
-function squareDigits(num) {
-    let result = "";
-    if (Number.isInteger(num)) {
-        let index = num.toString();
-        for (let i = 0; i < index.length; i++) {
-            let indexNum = +index.substr(i, 1);
-            result += `${indexNum * indexNum}`;
-        }
-        return +result;
-    } else {
-        result = "The function accepts an integer";
-        return result;
-    }
-}
+let breads = ["🥖 baguette", "🥯 bagel", "🥐 croissant", "🍞 BORODINSKIY"];
+let random;
+let tries = 0;
+
+do {
+  random = Math.floor(Math.random() * breads.length);
+  console.log("You are:", [random]);
+  tries++;
+} while (breads[random] !== "🍞 BORODINSKIY");
+
+console.log("It took " + tries + " tries to finally become 🍞 BORODINSKIY");
 ```
 
 ---
@@ -84,18 +82,16 @@ _[Look at another my projects...](https://dzichonka.github.io/)_
 
 ### Education
 
+- **RS School** - React
+  - _June 2025 - September 2025_
+- **RS School** - JavaScript/Front-end
+  - _October 2024 - June 2024_
 - **RS School** - JavaScript/Front-end. Pre-school
   - _June 2024 - October 2024_
 - **Cosinus** - Medical electronics and informatics technician
   - _September 2022 - June 2024 (Warsaw/Poland)_
-- **Udemy** - Full course on JavaScript
-  - _September 2022 - November 2024 (On-line)_
 - **Cisco Networking Academy** - IT Essentials
   - _November 2022 - October 2023 (On-line)_
-- **Udemy** - WEB-developing
-  - _December 2021 - May 2023 (On-line)_
-- **State University of Grodno** - Course of photography
-  - _November 2017 - May 2018 (Godno/Belarus)_
 - **Belarusian State Economic University** - Finance and credit
   - _September 2003 - June 2008 (Minsk/Belarus)_
 
@@ -105,5 +101,5 @@ _[Look at another my projects...](https://dzichonka.github.io/)_
 
 - **Belarusian** - native speaker
 - **Russian** - native speaker
-- **English** - B1
-- **Polish** - B1
+- **English** - B2
+- **Polish** - B2
