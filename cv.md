@@ -47,7 +47,7 @@ function becomeBorodinskiy() {
 
   do {
     random = Math.floor(Math.random() * breads.length);
-    console.log("You are:", breads[random]); // исправил вывод
+    console.log("You are:", breads[random]);
     tries++;
   } while (breads[random] !== "🍞 BORODINSKIY");
 
