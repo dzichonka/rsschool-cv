@@ -6,7 +6,6 @@
 
   <div>
       <h1>Anna Vasilevich</h1>
-      <h2>Front-end Developer</h2>
     <ul>
       <li><b>GitHub:</b> <a href="https://github.com/dzichonka">dzichonka</a></li>
       <li><b>Phone:</b> +48 694 680 523</li>
@@ -23,81 +22,79 @@
 
 ---
 
-### About Me
+### 👩‍🦳 About Me
 
-I am an ambitious personality with a passion for technology and programming. Although I hold a Bachelor's degree in Economics, I have always been deeply interested in physics and technology. In 2022, my family and I moved to Poland, where I began studying to become Medical electronics and informatics technician. During my training, I acquired skills in medical electronics and IT. Completing online courses in computer science and web development further enhanced my technical knowledge. I have strong analytical and problem-solving skills, along with the ability to learn quickly. I am proficient in MS Office and have a good level of English, which allows me to work with technical documentation. Additionally, I have experience in computer, network, and database management.
+Over the past year, I’ve built 15+ projects, including landing pages, SPAs, and web applications. My focus has been on React, TypeScript and Next: from developing new features to refactoring legacy code and migrating projects. I’ve worked with third-party APIs for authentication, product management, and data fetching. Additionally, I’ve solved 130+ Codewars challenges, sharpening my problem-solving skills in algorithms and data structures.
 
-#### My strengths:
+| Skills     | My strengths                                 |
+| ---------- | -------------------------------------------- |
+| JavaScript | Debugging with 100 `console.log`             |
+| TypeScript | Finding type errors and ignoring them anyway |
+| React      | Turning divs into components                 |
+| NEXT       | Deploy → error → Google → profit             |
+| Vitest     | Writing tests that only work on Fridays      |
+| SASS       | Nesting selectors until infinity             |
+| Tailwind   | Arguing if `bg-red-500` is red enough        |
+| Git        | Creating 17 branches named `fix-final-final` |
 
-- Creative thinking
-- Flexibility
-- Friendly
-- Active listener
-- Motivated
-- Critical thinking
-- Analytical skills
-
----
-
-### Skills
-
-- HTML
-- CSS
-- JavaScript
-- GIT
-- Gulp
-- MySQL
-- IT Essentials
-- Photoshop
-
----
-
-### Code example:
+### 🖋 Code example:
 
 ```
-let breads = ["🥖 baguette", "🥯 bagel", "🥐 croissant", "🍞 BORODINSKIY"];
-let random;
-let tries = 0;
+function becomeBorodinskiy() {
+  let breads = ["🥖 baguette", "🥯 bagel", "🥐 croissant", "🍞 BORODINSKIY"];
+  let random;
+  let tries = 0;
 
-do {
-  random = Math.floor(Math.random() * breads.length);
-  console.log("You are:", [random]);
-  tries++;
-} while (breads[random] !== "🍞 BORODINSKIY");
+  do {
+    random = Math.floor(Math.random() * breads.length);
+    console.log("You are:", breads[random]); // исправил вывод
+    tries++;
+  } while (breads[random] !== "🍞 BORODINSKIY");
 
-console.log("It took " + tries + " tries to finally become 🍞 BORODINSKIY");
+  console.log("It took " + tries + " tries to finally become 🍞 BORODINSKIY 🎉");
+}
+
+
+becomeBorodinskiy();
 ```
 
 ---
 
-### Experience
+### 💻 Experience
 
-- [Coffee-House](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/) A two-page presentation website for a coffee shop
-- [My CV](https://dzichonka.github.io/) A personal resume landing page
-- [Tic-tac-toe](https://dzichonka.github.io/tic-tac-toe/) A Tic Tac Toe game played against the computer
+#### [E-commerce](https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/) Online Pet-shop with React
+
+#### [Rest Client](https://rest-client-app-tawny.vercel.app/en) Postman-like application with Next
+
+#### [Bread Club](https://transcendent-chimera-1c5bd5.netlify.app/) App for Borodinskiy lovers
 
 _[Look at another my projects...](https://dzichonka.github.io/)_
 
 ---
 
-### Education
+### 📚 Education
 
-- **RS School** - React
-  - _June 2025 - September 2025_
-- **RS School** - JavaScript/Front-end
-  - _October 2024 - June 2024_
-- **RS School** - JavaScript/Front-end. Pre-school
-  - _June 2024 - October 2024_
-- **Cosinus** - Medical electronics and informatics technician
-  - _September 2022 - June 2024 (Warsaw/Poland)_
-- **Cisco Networking Academy** - IT Essentials
-  - _November 2022 - October 2023 (On-line)_
-- **Belarusian State Economic University** - Finance and credit
-  - _September 2003 - June 2008 (Minsk/Belarus)_
+**RS School**
+
+- React - _June 2025 - September 2025_
+- JavaScript/Front-end - _October 2024 - June 2024_
+- JavaScript/Front-end. Pre-school - _June 2024 - October 2024_
+
+**Cosinus** - Medical electronics and informatics technician
+
+- _September 2022 - June 2024 (Warsaw/Poland)_
+
+**Cisco Networking Academy** - IT Essentials
+
+- _November 2022 - October 2023 (On-line)_
+
+**Belarusian State Economic University** - Finance and credit
+
+- _September 2003 - June 2008 (Minsk/Belarus)_
 
 ---
 
-### Languages
+### 😜 Languages
 
 - **Belarusian** - native speaker
 - **Russian** - native speaker
