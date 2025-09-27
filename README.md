@@ -1,3 +1,5 @@
 # rsschool-cv
-https://dzichonka.github.io/rsschool-cv/cv
-https://dzichonka.github.io/rsschool-cv/
+
+[Markdown deploy](https://dzichonka.github.io/rsschool-cv/cv)
+
+[CV page](https://dzichonka.github.io/rsschool-cv/)
