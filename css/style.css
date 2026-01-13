@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #031c23;
+  color: #a3d9ec;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+hr {
+  width: 50%;
+}
+
+.title {
+  text-align: center;
+}
+
+h2 {
+  color: #83d4f7;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #73808d;
+  text-decoration: none;
+  border-bottom: 1px solid #73808d00;
+  transition: all 0.3s linear;
+}
+
+a:hover:not(.rsschool) {
+  color: #a5d5e9;
+  border-bottom: 1px solid #a5d5e9;
+}
+.rsschool:hover {
+  scale: 1.2;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #031c23;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.header-item {
+  padding: 0 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 20px;
+}
+
+.section-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-photo {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.main-title {
+  text-align: center;
+}
+
+.education-skills > nav {
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.projects-list {
+  padding-left: 0;
+}
+
+.projects-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech {
+  font-size: 14px;
+}
+
+.education-descr {
+  color: #73808d;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+code {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  font-size: 12px;
+}
+
+footer {
+  display: block;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-item {
+  color: #fff;
+}
+
+.rsschool {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1000px) {
+  .section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-list {
+    justify-content: right;
+  }
+
+  .header-item:nth-child(1),
+  .header-item:nth-child(2),
+  .header-item:nth-child(3),
+  .header-item:nth-child(4),
+  .header-item:nth-child(7) {
+    display: none;
+  }
+
+  pre {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 16px;
+    line-height: 1.1;
+  }
+
+  .education-nav {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .header-list {
+    justify-content: right;
+  }
+
+  .section-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-nav {
+    justify-content: center;
+  }
+
+  .footer-item:nth-child(1) {
+    display: none;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .section-code,
+  .section-projects,
+  .section-lang {
+    display: none;
+  }
+
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .section {
+    flex-basis: 50%;
+  }
+
+  .section-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-skills,
+  .section-about {
+    flex-basis: 100%;
+  }
+
+  img {
+    display: none;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  p,
+  li {
+    font-size: 12pt;
+    line-height: 1;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  li,
+  section,
+  hr {
+    page-break-inside: avoid;
+  }
+}
