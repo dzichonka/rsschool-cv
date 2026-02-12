@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,6 @@
     <title>Anna Vasilevich - CV</title>
     <meta name="description" content="Front-end developer" />
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -82,7 +81,7 @@
               <li class="contacts-item">
                 LinkedIn:
                 <a
-                  href="https://github.com/dzichonka"
+                  href="https://www.linkedin.com/in/anna-vasilevich-frontend/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="contacts-gh"
@@ -102,8 +101,8 @@
           </div>
           <div class="about-descr">
             Over the past year, I’ve built 15+ projects, including landing
-            pages, SPAs, and web applications. My focus has been on React,
-            TypeScript and Next: from developing new features to refactoring
+            pages, SPAs, and web applications. My focus has been on React(Next),
+            Angular TypeScript: from developing new features to refactoring
             legacy code and migrating projects. I’ve worked with third-party
             APIs for authentication, product management, and data fetching.
             Additionally, I’ve solved 130+ Codewars challenges, sharpening my
@@ -145,6 +144,7 @@
             <ul class="skills-list">
               <li class="skills-item">TypeScript</li>
               <li class="skills-item">React</li>
+              <li class="skills-item">Angular</li>
               <li class="skills-item">JavaScript</li>
               <li class="skills-item">GIT</li>
               <li class="skills-item">Tailwind</li>
@@ -186,6 +186,10 @@ function becomeBorodinskiy() {
           </div>
           <nav class="education-nav">
             <ul class="education-list">
+              <li class="education-item">
+                <h3>Short-track - Angular</h3>
+                <div class="education-descr">September 2025 - March 2026</div>
+              </li>
               <li class="education-item">
                 <h3>RS School - React</h3>
                 <div class="education-descr">June 2025 - September 2025</div>
@@ -235,12 +239,22 @@ function becomeBorodinskiy() {
                 <div class="link">
                   <a
                     target="_blank"
-                    href="https://rolling-scopes-school.github.io/dzichonka-JSFE2023Q4/coffee-house/"
-                    >E-commerce</a
+                    href="https://transcendent-chimera-1c5bd5.netlify.app/"
+                    >Bread Club App</a
+                  >
+                </div>
+                <div class="tech">App for Bread lovers</div>
+              </li>
+              <li>
+                <div class="link">
+                  <a
+                    target="_blank"
+                    href="https://profound-gumption-937c0a.netlify.app/"
+                    >Rick and Morty</a
                   >
                 </div>
                 <div class="tech">
-                  Online Pet-shop with React and TypeScript
+                  App for searching Rick and Morty characters
                 </div>
               </li>
               <li>
@@ -248,20 +262,10 @@ function becomeBorodinskiy() {
                   <a
                     target="_blank"
                     href="https://rest-client-app-tawny.vercel.app/en"
-                    >REST Client</a
+                    >Postman</a
                   >
                 </div>
                 <div class="tech">Postman-like application with Next.js</div>
-              </li>
-              <li>
-                <div class="link">
-                  <a
-                    target="_blank"
-                    href="https://transcendent-chimera-1c5bd5.netlify.app/"
-                    >Bread Club App</a
-                  >
-                </div>
-                <div class="tech">App for Bread lovers</div>
               </li>
             </ul>
           </nav>
@@ -309,8 +313,11 @@ function becomeBorodinskiy() {
             src="./assets/rss-logo.svg"
             alt="rsschool icon"
         /></a>
-        <div>2025</div>
+        <div id="year"></div>
       </div>
     </footer>
   </body>
+  <script>
+    document.querySelector("#year").textContent = new Date().getFullYear();
+  </script>
 </html>
