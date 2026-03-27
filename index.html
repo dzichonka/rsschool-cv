@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anna Vasilevich - CV</title>
+    <meta name="description" content="Front-end developer" />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="#contacts" class="header-link">Contacts</a>
+            </li>
+            <li class="header-item">
+              <a href="#about" class="header-link">About Me</a>
+            </li>
+            <li class="header-item">
+              <a href="#skills" class="header-link">Skills</a>
+            </li>
+            <li class="header-item">
+              <a href="#code" class="header-link">Code</a>
+            </li>
+            <li class="header-item">
+              <a href="#projects" class="header-link">Projects</a>
+            </li>
+            <li class="header-item">
+              <a href="#education" class="header-link">Education</a>
+            </li>
+            <li class="header-item">
+              <a href="#lang" class="header-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-main">
+          <img src="./assets/avatar3.jpg" alt="main photo" class="main-photo" />
+          <div class="main-title">
+            <h1 class="name">Anna Vasilevich</h1>
+          </div>
+        </section>
+
+        <section class="section section-contacts" id="contacts">
+          <hr />
+          <div class="title">
+            <h2>Contacts</h2>
+          </div>
+          <nav class="contacts-nav">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                Phone:
+                <a href="tel:+48694680523" class="contacts-tel"
+                  >+48&nbsp;694&nbsp;680&nbsp;523</a
+                >
+              </li>
+              <li class="contacts-item">
+                e-mail:
+                <a
+                  href="mailto:anna.vasilevich.pl@gmail.com"
+                  class="contacts-email"
+                  >anna.vasilevich.pl@gmail.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                GitHub:
+                <a
+                  href="https://github.com/dzichonka"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contacts-gh"
+                  >dzichonka</a
+                >
+              </li>
+              <li class="contacts-item">
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/anna-vasilevich-frontend/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contacts-gh"
+                  >anna-vasilevich-frontend</a
+                >
+              </li>
+              <li class="contacts-item">Discord: Vasilisa (@dzichonka)</li>
+              <li class="contacts-item">Telegram: @dzichonka</li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section section-about" id="about">
+          <hr />
+          <div class="title">
+            <h2>About Me</h2>
+          </div>
+          <div class="about-descr">
+            Over the past year, I’ve built 15+ projects, including landing
+            pages, SPAs, and web applications. My focus has been on React(Next),
+            Angular TypeScript: from developing new features to refactoring
+            legacy code and migrating projects. I’ve worked with third-party
+            APIs for authentication, product management, and data fetching.
+            Additionally, I’ve solved 130+ Codewars challenges, sharpening my
+            problem-solving skills in algorithms and data structures.
+          </div>
+        </section>
+
+        <section class="section section-strengths">
+          <hr />
+          <div class="title">
+            <h2>My strengths</h2>
+          </div>
+          <nav class="strengths-nav">
+            <ul class="strengths-list">
+              <li class="strengths-item">Debugging with 100 `console.log`</li>
+              <li class="strengths-item">TS ignoring</li>
+              <li class="strengths-item">Turning divs into components</li>
+              <li class="strengths-item">Deploy → error → Google → profit</li>
+              <li class="strengths-item">
+                Writing tests that only work on Fridays
+              </li>
+              <li class="strengths-item">Nesting selectors until infinity</li>
+              <li class="strengths-item">
+                Creating 17 branches named `fix-final-final`
+              </li>
+              <li class="strengths-item">
+                Arguing if `bg-red-500` is red enough
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section section-skills" id="skills">
+          <hr />
+          <div class="title">
+            <h2>Skills</h2>
+          </div>
+          <nav class="skills-nav">
+            <ul class="skills-list">
+              <li class="skills-item">TypeScript</li>
+              <li class="skills-item">React</li>
+              <li class="skills-item">Angular</li>
+              <li class="skills-item">JavaScript</li>
+              <li class="skills-item">GIT</li>
+              <li class="skills-item">Tailwind</li>
+              <li class="skills-item">SASS</li>
+              <li class="skills-item">Next</li>
+              <li class="skills-item">Vitest</li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section section-code" id="code">
+          <hr />
+          <div class="title">
+            <h2>Code example</h2>
+          </div>
+          <div class="code-content">
+            <pre><code>
+function becomeBorodinskiy() {
+  let breads = ["🥖 baguette", "🥯 bagel", "🥐 croissant", "🍞 BORODINSKIY"];
+  let random;
+  let tries = 0;
+
+  do {
+    random = Math.floor(Math.random() * breads.length);
+    console.log("You are:", breads[random]);
+    tries++;
+  } while (breads[random] !== "🍞 BORODINSKIY");
+
+  console.log("It took " + tries + " tries to finally become 🍞 BORODINSKIY 🎉");
+}
+</code></pre>
+          </div>
+        </section>
+
+        <section class="section education-skills" id="education">
+          <hr />
+          <div class="title">
+            <h2>Education</h2>
+          </div>
+          <nav class="education-nav">
+            <ul class="education-list">
+              <li class="education-item">
+                <h3>Short-track - Angular</h3>
+                <div class="education-descr">September 2025 - March 2026</div>
+              </li>
+              <li class="education-item">
+                <h3>RS School - React</h3>
+                <div class="education-descr">June 2025 - September 2025</div>
+              </li>
+              <li class="education-item">
+                <h3>RS School - JavaScript/Front-end</h3>
+                <div class="education-descr">October 2024 - June 2025</div>
+              </li>
+              <li class="education-item">
+                <h3>RS School - JavaScript/Front-end. Pre-school</h3>
+                <div class="education-descr">June 2024 - October 2024</div>
+              </li>
+              <li class="education-item">
+                <h3>
+                  Cosinus - Medical electronics and informatics technician
+                </h3>
+                <div class="education-descr">
+                  September 2022 - June 2024 (Warsaw/Poland)
+                </div>
+              </li>
+              <li class="education-item">
+                <h3>Cisco Networking Academy - IT Essentials</h3>
+                <div class="education-descr">
+                  November 2022 - October 2023 (On-line)
+                </div>
+              </li>
+              <li class="education-item">
+                <h3>
+                  Belarusian State Economic University - Finance and credit
+                </h3>
+                <div class="education-descr">
+                  September 2003 - June 2008 (Minsk/Belarus)
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="section section-projects" id="projects">
+          <hr />
+          <div class="title">
+            <h2>My projects</h2>
+          </div>
+          <nav class="projects-nav">
+            <ul class="projects-list">
+              <li>
+                <div class="link">
+                  <a
+                    target="_blank"
+                    href="https://transcendent-chimera-1c5bd5.netlify.app/"
+                    >Bread Club App</a
+                  >
+                </div>
+                <div class="tech">App for Bread lovers</div>
+              </li>
+              <li>
+                <div class="link">
+                  <a
+                    target="_blank"
+                    href="https://profound-gumption-937c0a.netlify.app/"
+                    >Rick and Morty</a
+                  >
+                </div>
+                <div class="tech">
+                  App for searching Rick and Morty characters
+                </div>
+              </li>
+              <li>
+                <div class="link">
+                  <a
+                    target="_blank"
+                    href="https://rest-client-app-tawny.vercel.app/en"
+                    >Postman</a
+                  >
+                </div>
+                <div class="tech">Postman-like application with Next.js</div>
+              </li>
+            </ul>
+          </nav>
+          <div class="link">
+            <a target="_blank" href="https://dzichonka.github.io/"
+              >Look at another my projects...</a
+            >
+          </div>
+        </section>
+
+        <section class="section section-lang" id="lang">
+          <hr />
+          <div class="title">
+            <h2>Languages</h2>
+          </div>
+          <nav class="lang-nav">
+            <ul class="lang-list">
+              <li class="lang-list">Russian - native speaker</li>
+              <li class="lang-list">Belarusian - native speaker</li>
+              <li class="lang-list">English - B2</li>
+              <li class="lang-list">Polish - B2</li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-nav">
+        <div class="footer-item">
+          <a
+            class="copywrite"
+            href="https://github.com/dzichonka"
+            target="_blank"
+            rel="noopener noreferrer"
+            >dzichonka</a
+          >
+        </div>
+        <a
+          class="rsschool footer-item"
+          href="https://rs.school/courses/short-track"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="link-img"
+            src="./assets/rss-logo.svg"
+            alt="rsschool icon"
+        /></a>
+        <div id="year"></div>
+      </div>
+    </footer>
+    <script>
+      document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
